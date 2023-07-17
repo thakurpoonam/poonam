@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUCATION</title>
+</head>
+<body>
+    <img src="W3Schools.com" width="104" height="142">
+    <h1>poonam thakur</h1>
+    <form>
+        <lable for="fname">First name:</lable><br>
+        <input type="text" id="fname" name="fname"><br>
+        <lbale for="lname">Last name:</lbale><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <form>
+        <p> select your language</p>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br> 
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascripts" name="fav_language" value="JavaScripts">
+    <label for="javascript">JavaScript</label></form>
+ <form>
+    <p>choose you device</p>
+    <input type="checkbox" id="object1" name="object1" value="phone">
+    <label for="object1"> I have a phone</label><br>
+    <input type="checkbox" id="object2" name="object2" value="laptop">
+    <label for ="object2"> I have a laptop</label><br>
+    <input type="checkbox" id="object3" name="object3" value="tablet">
+    <label for="object3"> I have a tablet</label><br>
+    </form> 
+    <P> enter login details</P>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" value="Poonam"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Thakur"><br>
+    <br>
+      <input type="submit" value="Submit">
+    </form>
+    <p>submit form</p>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" value="Poonam"><br><br>
+      <input type="submit" value="Submit">  
+    </form>
+    
+ </form>
+</body>
+</html>
